@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: 
+
+# Sitemaps
+Sitemap: //sitemap.xml
+Sitemap: /dynamic-sitemap.xml
