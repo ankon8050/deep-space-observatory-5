@@ -3,20 +3,20 @@ import { BlogConfig } from "./types/config";
 const blogConfig: BlogConfig = {
   use: "mdx", // mdx or notion
   siteLogo: {
-    url: "/images/logo.svg",
-    width: 201,
-    height: 39,
+    url: "/deep-space-observatory-5/images/logo-black.svg",
+    width: 133,
+    height: 150,
   },
-  siteName: "AWESOME",
+  siteName: "DEEP SPACE OBSERVATORY",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
-  title: "AWESOME",
-  description: "AWESOME Next.js TypeScript MDX Blog Theme",
+  title: "DEEP SPACE OBSERVATORY",
+  description: "Tumpa and Ankon\'s personal deep space observatory.",
   googleAnalyticsCode: "", // G-**********
   googleAdsenseCode: "", // ca-pub-****************
   notFoundPage: {
     title: "404",
     subtitle: "The page you were looking for was not found.",
-    image: "/images/not-found.jpeg",
+    image: "/deep-space-observatory-5/images/not-found.jpeg",
     description: `The page you were looking for was not found due to reasons such as
     "already deleted" or "URL is different".`,
   },
@@ -40,7 +40,7 @@ const blogConfig: BlogConfig = {
     },
     share: {
       title: "Share",
-      socials: ["twitter", "facebook"],
+      socials: ["twitter", "facebook", "linkedin"],
     },
     fixedSidebar: {
       ad: "",
@@ -66,104 +66,137 @@ const blogConfig: BlogConfig = {
     },
   },
   hero: {
-    title: "My awesome life",
-    image: "/images/plane.jpeg",
-    description: "AWESOME Next.js TypeScript MDX Blog Theme",
+    title: "Tumpa and Ankon's",
+    image: "/deep-space-observatory-5/images/cover.JPG",
+    description: "Personal Deep Space Observatory",
   },
   footer: {
-    title: "AWESOME Next.js TypeScript MDX Blog Theme",
+    title: "Deep Space Observatory",
   },
   article: {
-    defaultThumbnail: "/images/plane.jpeg",
+    defaultThumbnail: "/deep-space-observatory-5/images/default-thumbnail.png",
     articlesPerPage: 6,
   },
   navigation: [
     {
-      name: "travel",
-      url: `/travel`,
+      name: "nebula",
+      url: `/nebula`,
     },
     {
-      name: "camp",
-      url: `/camp`,
+      name: "star",
+      url: `/star`,
+    },
+    {
+      name: "solar system",
+      url: `/solar-system`,
+    },
+    {
+      name: "galaxy",
+      url: `/galaxy`,
     },
   ],
   subNavigation: [
+    // {
+    //   name: "terms",
+    //   url: "/about/terms",
+    // },
     {
-      name: "terms",
-      url: "/about/terms",
+      name: "Flickr",
+      url: "https://www.flickr.com/photos/198516315@N03/",
     },
     {
-      name: "privacy",
-      url: "/about/privacy",
-    },
-    {
-      name: "GitHub",
-      url: "https://github.com/steelydylan/Awesome",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/tasnim-manzur-ankon/",
     },
   ],
   account: {
-    name: "steelydylan",
-    description: "profile here profile here profile here profile here",
-    image: `/images/me.jpeg`,
+    name: "Tasnim M Ankon",
+    description: "Software Engineer, freelance photographer and cosmology enthusiast. Photos from smart telescope (Vaonis Vespera II), description prepared with help from ChatGPT-4o.",
+    image: "/deep-space-observatory-5/images/me.png",
     social: {
-      twitter: "https://twitter.com/steelydylan",
-      github: "https://github.com/steelydylan",
+      github: "https://github.com/ankon8050",
     },
   },
   writers: [
     {
-      id: "awesome",
-      name: "Mr. AWESOME",
-      description: "profile here profile here profile here profile here",
-      image: "/images/me.jpeg",
+      id: "ankon",
+      name: "Tasnim M Ankon",
+      description: "Software engineer, freelance photographer and cosmology enthusiast. Photos from smart telescope (Vaonis Vespera II), description prepared with help from ChatGPT-4o.",
+      image: "/deep-space-observatory-5/images/me.png",
     },
     {
-      id: "steelydylan",
-      name: "steelydylan",
-      description: "profile here profile here profile here profile here",
-      image: "/images/me.jpeg",
+      id: "tumpa",
+      name: "S Tumpa",
+      description: "Software engineer, painter and cosmology enthusiast.",
+      image: "/deep-space-observatory-5/images/pcu.png",
     },
   ],
   categories: [
     {
-      id: "about",
-      title: "About",
-      imagePath: "/images/camp.jpeg",
-      description: "",
+      id: "nebula",
+      title: "Nebula",
+      imagePath: "/deep-space-observatory-5/images/nebula.JPG",
+      description: "The darkest wonders of the cosmos",
     },
     {
-      id: "camp",
-      title: "Camp",
-      imagePath: "/images/camp.jpeg",
-      description: "Look at my awesome camp life",
+      id: "star",
+      title: "Star",
+      imagePath: "/deep-space-observatory-5/images/star.jpg",
+      description: "Brightest beams of the universe",
     },
     {
-      id: "travel",
-      title: "Travel",
-      imagePath: "/images/london.jpeg",
-      description: "Look at my awesome travel life",
+      id: "solar-system",
+      title: "Solar System",
+      imagePath: "/deep-space-observatory-5/images/sun-01.jpg",
+      description: "Mysteries of the Solar System",
+    },
+    {
+      id: "galaxy",
+      title: "Galaxy",
+      imagePath: "/deep-space-observatory-5/images/galaxy.jpg",
+      description: "Specks in the night sky harbouring millions and billions of stars",
     },
   ],
   tags: [
     {
-      id: "london",
-      title: "London",
+      id: "sun",
+      title: "Sun",
     },
     {
-      id: "boston",
-      title: "Boston",
+      id: "star",
+      title: "Star",
     },
     {
-      id: "paris",
-      title: "Paris",
+      id: "planet",
+      title: "Planet",
     },
     {
-      id: "fire",
-      title: "Fire",
+      id: "nebula",
+      title: "Nebula",
     },
     {
-      id: "sky",
-      title: "Sky",
+      id: "galaxy",
+      title: "Galaxy",
+    },
+    {
+      id: "cluster",
+      title: "Cluster",
+    },
+    {
+      id: "orion-constellation",
+      title: "Orion Constellation",
+    },
+    {
+      id: "ursa-major-constellation",
+      title: "Ursa Major Constellation",
+    },
+    {
+      id: "ursae-minoris-constellation",
+      title: "Ursae Minoris Constellation",
+    },
+    {
+      id: "cetus-constellation",
+      title: "Cetus Constellation",
     },
   ],
 };
