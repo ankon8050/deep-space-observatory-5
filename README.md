@@ -1,3 +1,14 @@
+# Ankon - Deploy process
+npm run build
+npm run export
+npm install --save-dev gh-pages
+
+Check package.json -> "scripts": {
+"deploy": "npm run build && npm run export && gh-pages -d out"
+}
+
+npm run deploy
+
 # AWESOME
 
 ## DEMO Page
