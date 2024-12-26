@@ -31,9 +31,9 @@ export const Share = ({
           if (s === "twitter") {
             href = `https://twitter.com/intent/tweet?url=${permalink}&text=${title}`;
           } else if (s === "facebook") {
-            href = `https://www.facebook.com/sharer/sharer.php?u=${permalink}`;
+            href = `https://www.facebook.com/sharer/sharer.php?u=https://ankon8050.github.io/deep-space-observatory-5/${encodeURIComponent(permalink)}`;
           } else if (s === "hatebu") {
-            href = `https://b.hatena.ne.jp/entry/panel/?url=${permalink}&btitle=${title}`;
+            href = `https://b.hatena.ne.jp/entry/panel/?url=https://ankon8050.github.io/deep-space-observatory-5/${permalink}&btitle=${title}`;
           }
           return (
             <a
