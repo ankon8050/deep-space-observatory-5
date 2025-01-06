@@ -198,6 +198,27 @@ const blogConfig: BlogConfig = {
       id: "cetus-constellation",
       title: "Cetus Constellation",
     },
+    {
+      id: "cassiopeia-constellation",
+      title: "Cassiopeia Constellation",
+    },
+    {
+      id: "cygnus-constellation",
+      title: "Cygnus Constellation",
+    },
+    {
+      id: "andromeda-constellation",
+      title: "Andromeda Constellation",
+    },
+    {
+      id: "perseus-constellation",
+      title: "Perseus Constellation",
+    },
+
+    {
+      id: "moon",
+      title: "Moon",
+    },
   ],
 };
 
