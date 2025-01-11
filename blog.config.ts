@@ -214,10 +214,21 @@ const blogConfig: BlogConfig = {
       id: "perseus-constellation",
       title: "Perseus Constellation",
     },
-
+    {
+      id: "pisces-constellation",
+      title: "Pisces Constellation",
+    },
     {
       id: "moon",
       title: "Moon",
+    },
+    {
+      id: "gemini-constellation",
+      title: "Gemini Constellation",
+    },
+    {
+      id: "cepheus-constellation",
+      title: "Cepheus Constellation",
     },
   ],
 };
