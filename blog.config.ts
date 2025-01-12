@@ -183,6 +183,10 @@ const blogConfig: BlogConfig = {
       title: "Cluster",
     },
     {
+      id: "asterism",
+      title: "Asterism",
+    },
+    {
       id: "orion-constellation",
       title: "Orion Constellation",
     },
@@ -229,6 +233,10 @@ const blogConfig: BlogConfig = {
     {
       id: "cepheus-constellation",
       title: "Cepheus Constellation",
+    },
+    {
+      id: "camelopardalis-constellation",
+      title: "Camelopardalis Constellation",
     },
   ],
 };
