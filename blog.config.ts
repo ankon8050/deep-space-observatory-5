@@ -238,6 +238,14 @@ const blogConfig: BlogConfig = {
       id: "camelopardalis-constellation",
       title: "Camelopardalis Constellation",
     },
+    {
+      id: "monoceros-constellation",
+      title: "Monoceros Constellation",
+    },
+    {
+      id: "coma-berenices-constellation",
+      title: "Coma Berenices Constellation",
+    },
   ],
 };
 
