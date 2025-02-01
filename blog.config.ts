@@ -111,7 +111,7 @@ const blogConfig: BlogConfig = {
   ],
   account: {
     name: "Tasnim M Ankon",
-    description: "Software Engineer, freelance photographer and cosmology enthusiast. Photos from smart telescope (Vaonis Vespera II), description prepared with help from ChatGPT-4o.",
+    description: "Software Engineer, freelance photographer and cosmology enthusiast. Photos from smart telescope (Vaonis Vespera II), description prepared with help from ChatGPT-4o. Cover photos, if edited, using GIMP, Siril and GraXpert.",
     image: "/deep-space-observatory-5/images/me.png",
     social: {
       github: "https://github.com/ankon8050",
@@ -121,7 +121,7 @@ const blogConfig: BlogConfig = {
     {
       id: "ankon",
       name: "Tasnim M Ankon",
-      description: "Software engineer, freelance photographer and cosmology enthusiast. Photos from smart telescope (Vaonis Vespera II), description prepared with help from ChatGPT-4o.",
+      description: "Software engineer, freelance photographer and cosmology enthusiast. Photos from smart telescope (Vaonis Vespera II), description prepared with help from ChatGPT-4o. Cover photos, if edited, using GIMP, Siril and GraXpert.",
       image: "/deep-space-observatory-5/images/me.png",
     },
     {
@@ -245,6 +245,10 @@ const blogConfig: BlogConfig = {
     {
       id: "coma-berenices-constellation",
       title: "Coma Berenices Constellation",
+    },
+    {
+      id: "canes-venatici-constellation",
+      title: "Canes Venatici Constellation",
     },
   ],
 };
